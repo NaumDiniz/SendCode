@@ -4,90 +4,397 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>N41 Codes</title>
+        <title>Send Code</title>
     </head>
     <body>
         <h1>Na.one Codes</h1>
 
-        <script src="https://cdn01.jotfor.ms/static/prototype.forms.js?3.3.39649" type="text/javascript"></script>
-<script src="https://cdn02.jotfor.ms/static/jotform.forms.js?3.3.39649" type="text/javascript"></script>
-<script type="text/javascript">	JotForm.newDefaultTheme = true;
-	JotForm.extendsNewTheme = false;
-	JotForm.singleProduct = false;
-	JotForm.newPaymentUIForNewCreatedForms = true;
-	JotForm.newPaymentUI = true;
-	JotForm.clearFieldOnHide="disable";
-	JotForm.submitError="jumpToFirstError";
+        <script
+            src="https://cdn01.jotfor.ms/static/prototype.forms.js?3.3.39649"
+            type="text/javascript"
+        ></script>
+        <script
+            src="https://cdn02.jotfor.ms/static/jotform.forms.js?3.3.39649"
+            type="text/javascript"
+        ></script>
+        <script type="text/javascript">
+            JotForm.newDefaultTheme = true
+            JotForm.extendsNewTheme = false
+            JotForm.singleProduct = false
+            JotForm.newPaymentUIForNewCreatedForms = true
+            JotForm.newPaymentUI = true
+            JotForm.clearFieldOnHide = 'disable'
+            JotForm.submitError = 'jumpToFirstError'
 
-	JotForm.init(function(){
-	/*INIT-START*/
-if (window.JotForm && JotForm.accessible) $('input_4').setAttribute('tabindex',0);
-      JotForm.alterTexts({"ageVerificationError":"Você deve ter mais de {minAge} anos para enviar este formulário.","alphabetic":"Este campo pode conter apenas letras.","alphanumeric":"Este campo pode conter apenas letras e números.","appointmentSelected":"Você selecionou {time} em {date}.","ccDonationMinLimitError":"O valor mínimo é de {minAmount} {currency}","ccInvalidCVC":"Código de verificação (CVC) inválido.","ccInvalidExpireDate":"Data de vencimento inválida.","ccInvalidNumber":"Número do cartão de crédito inválido.","ccMissingDetails":"Please fill up the credit card details.","ccMissingDonation":"Insira valores numéricos para o montante de doação.","ccMissingProduct":"Selecione pelo menos um produto.","characterLimitError":"Excesso de caracteres. O limite é de","characterMinLimitError":"Poucos caracteres. O mínimo é","confirmClearForm":"Tem certeza de que deseja limpar este formulário?","confirmEmail":"E-mail não é correspondente.","currency":"Este campo pode conter apenas valores monetários.","cyrillic":"Este campo pode conter apenas caracteres cirílicos.","dateInvalid":"Esta data não é válida. O formato da data é {format}.","dateInvalidSeparate":"Esta data não é válida. Insira um {element} válido.","dateLimited":"Esta data não está disponível.","disallowDecimals":"Favor inserir um número inteiro.","dragAndDropFilesHere_infoMessage":"Arraste e solte seus arquivos aqui","email":"Insira um endereço de e-mail válido.","fillMask":"Valor do campo deve preencher máscara.","freeEmailError":"Não são permitidas contas de e-mail gratuitas.","generalError":"O formulário contém erros. Por favor, corrija-os antes de continuar.","generalPageError":"Há erros nesta página. Por favor, corrija-os antes de continuar.","gradingScoreError":"Pontuação total deve ser menor ou igual a","incompleteFields":"Há campos obrigatórios incompletos. Por favor, preencha-os.","inputCarretErrorA":"A entrada não deve ser menor que o valor mínimo:","inputCarretErrorB":"A entrada não deve ser maior que o valor máximo:","justSoldOut":"Acabou de Esgotar","lessThan":"Sua pontuação deve ser inferior ou igual a","maxDigitsError":"O número máximo de caracteres permitido é de","maxFileSize_infoMessage":"Tamanho máx.","maxSelectionsError":"The maximum number of selections allowed is ","minSelectionsError":"O número mínimo de seleções exigido é","multipleFileUploads_emptyError":"{file} está vazio. Por favor, selecione os arquivos novamente.","multipleFileUploads_fileLimitError":"São permitidos apenas {fileLimit} uploads.","multipleFileUploads_minSizeError":"O arquivo {file} é muito pequeno. O tamanho mínimo é de {minSizeLimit}.","multipleFileUploads_onLeave":"O upload de arquivos está em andamento. Se você sair agora, o envio será cancelado.","multipleFileUploads_sizeError":"O arquivo {file} é muito grande. O tamanho máximo é de {sizeLimit}.","multipleFileUploads_typeError":"O arquivo {file} possui uma extensão inválida. São permitidas apenas as extensões {extensions}.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","noSlotsAvailable":"Nenhum horário disponível","notEnoughStock":"Não há estoque suficiente para a seleção atual","notEnoughStock_remainedItems":"Não há estoque suficiente para a seleção atual ({count} itens restantes)","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","numeric":"Este campo pode conter apenas números.","pastDatesDisallowed":"A data não pode estar no passado.","pleaseWait":"Por favor, aguarde...","required":"Este campo é obrigatório.","requireEveryCell":"Toda célula é obrigatória.","requireEveryRow":"Todos as linhas são obrigatórias.","requireOne":"Pelo menos um campo é obrigatório.","restrictedDomain":"This domain is not allowed","selectionSoldOut":"Seleção Esgotada","slotUnavailable":"{time} em {date} já foi ocupado. Selecione outro horário.","soldOut":"Esgotado","subProductItemsLeft":"({count} itens restantes)","uploadExtensions":"Somente é possível fazer upload dos seguintes arquivos:","uploadFilesize":"O tamanho do arquivo não pode ser maior que:","uploadFilesizemin":"O ficheiro não pode ser menor que:","url":"Este campo pode conter apenas uma URL válida.","validateEmail":"Você precisa validar este e-mail","wordLimitError":"Excesso de palavras. O limite é de","wordMinLimitError":"Poucas palavras. O mínimo é"});
-	/*INIT-END*/
-	});
+            JotForm.init(function () {
+                /*INIT-START*/
+                if (window.JotForm && JotForm.accessible)
+                    $('input_4').setAttribute('tabindex', 0)
+                JotForm.alterTexts({
+                    ageVerificationError:
+                        'Você deve ter mais de {minAge} anos para enviar este formulário.',
+                    alphabetic: 'Este campo pode conter apenas letras.',
+                    alphanumeric:
+                        'Este campo pode conter apenas letras e números.',
+                    appointmentSelected: 'Você selecionou {time} em {date}.',
+                    ccDonationMinLimitError:
+                        'O valor mínimo é de {minAmount} {currency}',
+                    ccInvalidCVC: 'Código de verificação (CVC) inválido.',
+                    ccInvalidExpireDate: 'Data de vencimento inválida.',
+                    ccInvalidNumber: 'Número do cartão de crédito inválido.',
+                    ccMissingDetails: 'Please fill up the credit card details.',
+                    ccMissingDonation:
+                        'Insira valores numéricos para o montante de doação.',
+                    ccMissingProduct: 'Selecione pelo menos um produto.',
+                    characterLimitError: 'Excesso de caracteres. O limite é de',
+                    characterMinLimitError: 'Poucos caracteres. O mínimo é',
+                    confirmClearForm:
+                        'Tem certeza de que deseja limpar este formulário?',
+                    confirmEmail: 'E-mail não é correspondente.',
+                    currency:
+                        'Este campo pode conter apenas valores monetários.',
+                    cyrillic:
+                        'Este campo pode conter apenas caracteres cirílicos.',
+                    dateInvalid:
+                        'Esta data não é válida. O formato da data é {format}.',
+                    dateInvalidSeparate:
+                        'Esta data não é válida. Insira um {element} válido.',
+                    dateLimited: 'Esta data não está disponível.',
+                    disallowDecimals: 'Favor inserir um número inteiro.',
+                    dragAndDropFilesHere_infoMessage:
+                        'Arraste e solte seus arquivos aqui',
+                    email: 'Insira um endereço de e-mail válido.',
+                    fillMask: 'Valor do campo deve preencher máscara.',
+                    freeEmailError:
+                        'Não são permitidas contas de e-mail gratuitas.',
+                    generalError:
+                        'O formulário contém erros. Por favor, corrija-os antes de continuar.',
+                    generalPageError:
+                        'Há erros nesta página. Por favor, corrija-os antes de continuar.',
+                    gradingScoreError:
+                        'Pontuação total deve ser menor ou igual a',
+                    incompleteFields:
+                        'Há campos obrigatórios incompletos. Por favor, preencha-os.',
+                    inputCarretErrorA:
+                        'A entrada não deve ser menor que o valor mínimo:',
+                    inputCarretErrorB:
+                        'A entrada não deve ser maior que o valor máximo:',
+                    justSoldOut: 'Acabou de Esgotar',
+                    lessThan: 'Sua pontuação deve ser inferior ou igual a',
+                    maxDigitsError:
+                        'O número máximo de caracteres permitido é de',
+                    maxFileSize_infoMessage: 'Tamanho máx.',
+                    maxSelectionsError:
+                        'The maximum number of selections allowed is ',
+                    minSelectionsError: 'O número mínimo de seleções exigido é',
+                    multipleFileUploads_emptyError:
+                        '{file} está vazio. Por favor, selecione os arquivos novamente.',
+                    multipleFileUploads_fileLimitError:
+                        'São permitidos apenas {fileLimit} uploads.',
+                    multipleFileUploads_minSizeError:
+                        'O arquivo {file} é muito pequeno. O tamanho mínimo é de {minSizeLimit}.',
+                    multipleFileUploads_onLeave:
+                        'O upload de arquivos está em andamento. Se você sair agora, o envio será cancelado.',
+                    multipleFileUploads_sizeError:
+                        'O arquivo {file} é muito grande. O tamanho máximo é de {sizeLimit}.',
+                    multipleFileUploads_typeError:
+                        'O arquivo {file} possui uma extensão inválida. São permitidas apenas as extensões {extensions}.',
+                    multipleFileUploads_uploadFailed:
+                        'File upload failed, please remove it and upload the file again.',
+                    noSlotsAvailable: 'Nenhum horário disponível',
+                    notEnoughStock:
+                        'Não há estoque suficiente para a seleção atual',
+                    notEnoughStock_remainedItems:
+                        'Não há estoque suficiente para a seleção atual ({count} itens restantes)',
+                    noUploadExtensions:
+                        'File has no extension file type (e.g. .txt, .png, .jpeg)',
+                    numeric: 'Este campo pode conter apenas números.',
+                    pastDatesDisallowed: 'A data não pode estar no passado.',
+                    pleaseWait: 'Por favor, aguarde...',
+                    required: 'Este campo é obrigatório.',
+                    requireEveryCell: 'Toda célula é obrigatória.',
+                    requireEveryRow: 'Todos as linhas são obrigatórias.',
+                    requireOne: 'Pelo menos um campo é obrigatório.',
+                    restrictedDomain: 'This domain is not allowed',
+                    selectionSoldOut: 'Seleção Esgotada',
+                    slotUnavailable:
+                        '{time} em {date} já foi ocupado. Selecione outro horário.',
+                    soldOut: 'Esgotado',
+                    subProductItemsLeft: '({count} itens restantes)',
+                    uploadExtensions:
+                        'Somente é possível fazer upload dos seguintes arquivos:',
+                    uploadFilesize:
+                        'O tamanho do arquivo não pode ser maior que:',
+                    uploadFilesizemin: 'O ficheiro não pode ser menor que:',
+                    url: 'Este campo pode conter apenas uma URL válida.',
+                    validateEmail: 'Você precisa validar este e-mail',
+                    wordLimitError: 'Excesso de palavras. O limite é de',
+                    wordMinLimitError: 'Poucas palavras. O mínimo é'
+                })
+                /*INIT-END*/
+            })
 
-   JotForm.prepareCalculationsOnTheFly([null,{"name":"heading","qid":"1","text":"Formulario","type":"control_head"},{"name":"submit2","qid":"2","text":"Enviar","type":"control_button"},{"name":"codigos","qid":"3","text":"Codigos","type":"control_head"},{"description":"","name":"aqui","qid":"4","subLabel":"","text":"Aqui","type":"control_textarea"}]);
-   setTimeout(function() {
-JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"Formulario","type":"control_head"},{"name":"submit2","qid":"2","text":"Enviar","type":"control_button"},{"name":"codigos","qid":"3","text":"Codigos","type":"control_head"},{"description":"","name":"aqui","qid":"4","subLabel":"","text":"Aqui","type":"control_textarea"}]);}, 20); 
-</script>
-<style type="text/css">@media print{.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
-<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?v=3.3.39649"/>
-<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/payment/payment_styles.css?3.3.39649" />
-<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.39649" />
-<form class="jotform-form" action="https://submit.jotform.com/submit/230544279826059" method="post" name="form_230544279826059" id="230544279826059" accept-charset="utf-8" autocomplete="on"><input type="hidden" name="formID" value="230544279826059" /><input type="hidden" id="JWTContainer" value="" /><input type="hidden" id="cardinalOrderNumber" value="" />
-  <div role="main" class="form-all">
-    <style>
-      .form-all:before
-      {
-        background: none;
-      }
-    </style>
-    <ul class="form-section page-section">
-      <li id="cid_1" class="form-input-wide" data-type="control_head">
-        <div class="form-header-group  header-large">
-          <div class="header-text httal htvam">
-            <h1 id="header_1" class="form-header" data-component="header">Formulário</h1>
-          </div>
-        </div>
-      </li>
-      <li id="cid_3" class="form-input-wide" data-type="control_head">
-        <div class="form-header-group  header-default">
-          <div class="header-text httal htvam">
-            <h2 id="header_3" class="form-header" data-component="header">Códigos</h2>
-            <div id="subHeader_3" class="form-subHeader">Cole o seu código abaixo.</div>
-          </div>
-        </div>
-      </li>
-      <li class="form-line" data-type="control_textarea" id="id_4"><label class="form-label form-label-top form-label-auto" id="label_4" for="input_4"> Aqui </label>
-        <div id="cid_4" class="form-input-wide" data-layout="full"> <textarea id="input_4" class="form-textarea" name="q4_aqui" style="width:648px;height:163px" data-component="textarea" aria-labelledby="label_4"></textarea> </div>
-      </li>
-      <li class="form-line" data-type="control_button" id="id_2">
-        <div id="cid_2" class="form-input-wide" data-layout="full">
-          <div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField"><button id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">Enviar</button></div>
-        </div>
-      </li>
-      <li style="display:none">Should be Empty: <input type="text" name="website" value="" /></li>
-    </ul>
-  </div>
-  <script>
-    JotForm.showJotFormPowered = "new_footer";
-  </script>
-  <script>
-    JotForm.poweredByText = "Powered by Jotform";
-  </script><input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="230544279826059" />
-  <script type="text/javascript">
-    var all_spc = document.querySelectorAll("form[id='230544279826059'] .si" + "mple" + "_spc");
-    for (var i = 0; i < all_spc.length; i++)
-    {
-      all_spc[i].value = "230544279826059-230544279826059";
-    }
-  </script>
-  <div class="formFooter-heightMask"></div>
-  <div class="formFooter f6 branding21 earthquake-donation">
-    <div class="formFooter-wrapper formFooter-leftSide"><a href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=230544279826059&utm_content=jotform_logo&utm_campaign=earthquake-donation-form-footer" target="_blank" class="formFooter-logoLink"><img class="formFooter-logo" src="https://cdn.jotfor.ms/assets/img/logo2021/jotform-logo-full-white.png" alt="Jotform Logo" style="height: 23px;"></a></div>
-    <div class="formFooter-wrapper formFooter-rightSide"><span class="formFooter-text">Help Turkey affected by massive earthquakes.</span><a class="formFooter-button mobile" href="https://www.jotform.com/turkey-earthquake-donation/?utm_source=earthquake-formfooter&utm_medium=banner&utm_term=230544279826059&utm_content=jotform_button&utm_campaign=earthquake-donation-form-footer" target="_blank">Donate now ></a><a class="formFooter-button desktop" href="https://www.jotform.com/turkey-earthquake-donation/?utm_source=earthquake-formfooter&utm_medium=banner&utm_term=230544279826059&utm_content=jotform_button&utm_campaign=earthquake-donation-form-footer" target="_blank">Help for Turkey ></a></div>
-  </div>
-</form><script type="text/javascript">JotForm.ownerView=true;</script><script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.39649"></script>
-<script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.39649"></script>
+            JotForm.prepareCalculationsOnTheFly([
+                null,
+                {
+                    name: 'heading',
+                    qid: '1',
+                    text: 'Formulario',
+                    type: 'control_head'
+                },
+                {
+                    name: 'submit2',
+                    qid: '2',
+                    text: 'Enviar',
+                    type: 'control_button'
+                },
+                {
+                    name: 'codigos',
+                    qid: '3',
+                    text: 'Codigos',
+                    type: 'control_head'
+                },
+                {
+                    description: '',
+                    name: 'aqui',
+                    qid: '4',
+                    subLabel: '',
+                    text: 'Aqui',
+                    type: 'control_textarea'
+                }
+            ])
+            setTimeout(function () {
+                JotForm.paymentExtrasOnTheFly([
+                    null,
+                    {
+                        name: 'heading',
+                        qid: '1',
+                        text: 'Formulario',
+                        type: 'control_head'
+                    },
+                    {
+                        name: 'submit2',
+                        qid: '2',
+                        text: 'Enviar',
+                        type: 'control_button'
+                    },
+                    {
+                        name: 'codigos',
+                        qid: '3',
+                        text: 'Codigos',
+                        type: 'control_head'
+                    },
+                    {
+                        description: '',
+                        name: 'aqui',
+                        qid: '4',
+                        subLabel: '',
+                        text: 'Aqui',
+                        type: 'control_textarea'
+                    }
+                ])
+            }, 20)
+        </script>
+        <style type="text/css">
+            @media print {
+                .form-section {
+                    display: inline !important;
+                }
+                .form-pagebreak {
+                    display: none !important;
+                }
+                .form-section-closed {
+                    height: auto !important;
+                }
+                .page-section {
+                    position: initial !important;
+                }
+            }
+        </style>
+        <link
+            type="text/css"
+            rel="stylesheet"
+            href="https://cdn01.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?v=3.3.39649"
+        />
+        <link
+            type="text/css"
+            rel="stylesheet"
+            href="https://cdn02.jotfor.ms/css/styles/payment/payment_styles.css?3.3.39649"
+        />
+        <link
+            type="text/css"
+            rel="stylesheet"
+            href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.39649"
+        />
+        <form
+            class="jotform-form"
+            action="https://submit.jotform.com/submit/230544279826059"
+            method="post"
+            name="form_230544279826059"
+            id="230544279826059"
+            accept-charset="utf-8"
+            autocomplete="on"
+        >
+            <input type="hidden" name="formID" value="230544279826059" /><input
+                type="hidden"
+                id="JWTContainer"
+                value=""
+            /><input type="hidden" id="cardinalOrderNumber" value="" />
+            <div role="main" class="form-all">
+                <style>
+                    .form-all:before {
+                        background: none;
+                    }
+                </style>
+                <ul class="form-section page-section">
+                    <li
+                        id="cid_1"
+                        class="form-input-wide"
+                        data-type="control_head"
+                    >
+                        <div class="form-header-group header-large">
+                            <div class="header-text httal htvam">
+                                <h1
+                                    id="header_1"
+                                    class="form-header"
+                                    data-component="header"
+                                >
+                                    Send Code
+                                </h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li
+                        id="cid_3"
+                        class="form-input-wide"
+                        data-type="control_head"
+                    >
+                        <div class="form-header-group header-default">
+                            <div class="header-text httal htvam">
+                                <h2
+                                    id="header_3"
+                                    class="form-header"
+                                    data-component="header"
+                                >
+                                    Códigos
+                                </h2>
+                                <div id="subHeader_3" class="form-subHeader">
+                                    Cole o seu código abaixo.
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li
+                        class="form-line"
+                        data-type="control_textarea"
+                        id="id_4"
+                    >
+                        <label
+                            class="form-label form-label-top form-label-auto"
+                            id="label_4"
+                            for="input_4"
+                        >
+                            Aqui
+                        </label>
+                        <div
+                            id="cid_4"
+                            class="form-input-wide"
+                            data-layout="full"
+                        >
+                            <textarea
+                                id="input_4"
+                                class="form-textarea"
+                                name="q4_aqui"
+                                style="width: 648px; height: 163px"
+                                data-component="textarea"
+                                aria-labelledby="label_4"
+                            ></textarea>
+                        </div>
+                    </li>
+                    <li class="form-line" data-type="control_button" id="id_2">
+                        <div
+                            id="cid_2"
+                            class="form-input-wide"
+                            data-layout="full"
+                        >
+                            <div
+                                data-align="auto"
+                                class="form-buttons-wrapper form-buttons-auto jsTest-button-wrapperField"
+                            >
+                                <button
+                                    id="input_2"
+                                    type="submit"
+                                    class="form-submit-button submit-button jf-form-buttons jsTest-submitField"
+                                    data-component="button"
+                                    data-content=""
+                                >
+                                    Enviar
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display: none">
+                        Should be Empty:
+                        <input type="text" name="website" value="" />
+                    </li>
+                </ul>
+            </div>
+            <script>
+                JotForm.showJotFormPowered = 'new_footer'
+            </script>
+            <script>
+                JotForm.poweredByText = 'Powered by Jotform'
+            </script>
+            <input
+                type="hidden"
+                class="simple_spc"
+                id="simple_spc"
+                name="simple_spc"
+                value="230544279826059"
+            />
+            <script type="text/javascript">
+                var all_spc = document.querySelectorAll(
+                    "form[id='230544279826059'] .si" + 'mple' + '_spc'
+                )
+                for (var i = 0; i < all_spc.length; i++) {
+                    all_spc[i].value = '230544279826059-230544279826059'
+                }
+            </script>
+            <div class="formFooter-heightMask"></div>
+            <div class="formFooter f6 branding21 earthquake-donation">
+                <div class="formFooter-wrapper formFooter-leftSide">
+                    <a
+                        href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=230544279826059&utm_content=jotform_logo&utm_campaign=earthquake-donation-form-footer"
+                        target="_blank"
+                        class="formFooter-logoLink"
+                        ><img
+                            class="formFooter-logo"
+                            src="https://cdn.jotfor.ms/assets/img/logo2021/jotform-logo-full-white.png"
+                            alt="Jotform Logo"
+                            style="height: 23px"
+                    /></a>
+                </div>
+                <div class="formFooter-wrapper formFooter-rightSide">
+                    <span class="formFooter-text"
+                        >Help Turkey affected by massive earthquakes.</span
+                    ><a
+                        class="formFooter-button mobile"
+                        href="https://www.jotform.com/turkey-earthquake-donation/?utm_source=earthquake-formfooter&utm_medium=banner&utm_term=230544279826059&utm_content=jotform_button&utm_campaign=earthquake-donation-form-footer"
+                        target="_blank"
+                        >Donate now ></a
+                    ><a
+                        class="formFooter-button desktop"
+                        href="https://www.jotform.com/turkey-earthquake-donation/?utm_source=earthquake-formfooter&utm_medium=banner&utm_term=230544279826059&utm_content=jotform_button&utm_campaign=earthquake-donation-form-footer"
+                        target="_blank"
+                        >Help for Turkey ></a
+                    >
+                </div>
+            </div>
+        </form>
+        <script type="text/javascript">
+            JotForm.ownerView = true
+        </script>
+        <script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.39649"></script>
+        <script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.39649"></script>
     </body>
 </html>
